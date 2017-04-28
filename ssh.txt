@@ -1,0 +1,11 @@
+Client:
+    ssh-keygen -t rsa
+Then Add id_rsa.pub to ->
+
+~/.ssh/authorized_keys
+
+
+Permit Root Login:
+-> /etc/ssh/sshd_config
+PermitRootLogin yes
+
