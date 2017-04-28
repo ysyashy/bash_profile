@@ -77,8 +77,8 @@ esac
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/.bash_alias ]; then
+    . ~/.bash_alias
 fi
 
 # enable programmable completion features (you don't need to enable
